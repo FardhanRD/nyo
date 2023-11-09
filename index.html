@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sparepart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</head>
+<body class="font-sans bg-gray-900 text-white">
+
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-lg font-bold">DAZZ SPEEDSHOP</a>
+
+            <div class="flex items-center space-x-4">
+                <input type="text" placeholder="Cari..." class="p-2 rounded border-none bg-gray-700 text-gray-300 focus:outline-none">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded">Cari</button>
+            </div>
+
+            <div class="space-x-4">
+                <a href="#" class="text-blue-700">Home</a>
+                <a href="#" class="text-blue-700">Products</a>
+                <a href="#" class="text-blue-700">About</a>
+                <a href="https://www.instagram.com/far.dhan/" class="text-blue-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="p-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow">
+                <img id="ubah" src="img/velg.jpeg" alt="Sparepart 1" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Velg Marus</h2>
+                <p class="text-gray-700">Rp 40.000.000</p>
+                <button onclick="Beli()" class="bg-blue-500 text-white px-4 py-2 mt-2 rounded">Beli</button>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow">
+                <img id="ubah2" src="img/velg2.jpeg" alt="Sparepart 2" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Velg Luigy</h2>
+                <p class="text-gray-700">Rp 30.000.000</p>
+                <button class="bg-blue-500 text-white px-4 py-2 mt-2 rounded">Beli</button>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow">
+                <img id="ubah3" src="img/knalpot1.jpg" alt="Sparepart 3" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Knalpot Shijiro</h2>
+                <p class="text-gray-700">Rp 2.000.000</p>
+                <button class="bg-blue-500 text-white px-4 py-2 mt-2 rounded">Beli</button>
+            </div>
+        </div>
+    </section>
+    <div class="mt-5  text-center">
+
+    <button
+    id="btn"
+    onclick="Change()"
+    class="bg-blue-500 rounded-3xl py-3 px-8 
+   font-medium inline-block mr-4 
+   hover:bg-transparant hover:border-yellow-300
+    hover:text-white duration-300 hover:border 
+    border border-transparent" >more</button>
+</div>
+<br><br><br><br><br>
+
+</body>
+</html>
